@@ -9,6 +9,6 @@ search_term = input("스크래핑하고싶은 검색어를 입력하세요 (예�
 response = get(f"{base_url}{search_term}")
 if response.status_code != 200:
     print("사이트를 불러올수없습니다.")
-
-print(response.text)
-#프린트
+else:
+    print(response.text)
+    #프린트
