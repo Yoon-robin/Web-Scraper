@@ -1,4 +1,3 @@
-from re import search
 from requests import get #모듈 불러오기
 
 #베이스 URL과 검색어 입력받기
